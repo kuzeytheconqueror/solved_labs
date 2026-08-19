@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solved_Machines.md",
+                "file": "Hackvisor/Mount.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Solved_Machines"
+              "title": "Mount"
             }
           }
         ]
@@ -188,13 +188,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "ed0b568d7cf1d6ab",
+  "active": "48ad942dacf67ab3",
   "lastOpenFiles": [
+    "Hackvisor/Tiger.md",
+    "Hackvisor/Mount.md",
+    "Hackvisor/Query Gate.md",
+    "Hackvisor/Carnival.md",
+    "Hackvisor/Secure Command.md",
+    "Hackvisor/007.md",
+    "Hackvisor/Reddict.md",
+    "Hackvisor/File Hunter.md",
+    "Hackvisor/Arrow.md",
+    "Solved_Machines.md",
     "Independent",
     "Try_Hack_Me",
     "Burb_Suit",
     "HTB",
-    "Solved_Machines.md",
     "Hackvisor"
   ]
 }
