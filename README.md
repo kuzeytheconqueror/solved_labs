@@ -37,6 +37,12 @@ _No machines solved yet — coming soon._
 
 _No rooms solved yet — coming soon._
 
+### Burp Suite / PortSwigger
+
+| Lab | Focus | Writeup | Video |
+|---|---|---|---|
+| Exploiting LLM APIs with excessive agency | LLM, excessive agency, SQL via Debug SQL API | [📝 notes](obsidian_notes/Burb_Suit/LLM_Pentesting/Labs/Exploiting%20LLM%20APIs%20with%20excessive%20agency.md) | — |
+
 ## 🎥 Video Walkthroughs
 
 Whenever a machine turns out to be particularly interesting or instructive, I'll publish a video solving it start-to-finish and link it in the table above.
