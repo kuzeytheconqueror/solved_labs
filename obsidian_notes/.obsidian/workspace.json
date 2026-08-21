@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackvisor/Mount.md",
+                "file": "Burb_Suit/LLM_Pentesting/LLM Pentesting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mount"
+              "title": "LLM Pentesting"
             }
           }
         ]
@@ -190,16 +190,29 @@
   },
   "active": "48ad942dacf67ab3",
   "lastOpenFiles": [
-    "Hackvisor/Tiger.md",
-    "Hackvisor/Mount.md",
-    "Hackvisor/Query Gate.md",
-    "Hackvisor/Carnival.md",
-    "Hackvisor/Secure Command.md",
-    "Hackvisor/007.md",
-    "Hackvisor/Reddict.md",
-    "Hackvisor/File Hunter.md",
-    "Hackvisor/Arrow.md",
+    "Burb_Suit/LLM_Pentesting/llm_image1.png",
+    "Burb_Suit/LLM_Pentesting/References.md",
+    "Burb_Suit/LLM_Pentesting/LLM Pentesting.md",
+    "Burb_Suit/LLM_Pentesting/Notes/01_Overview.md",
+    "Burb_Suit/LLM_Pentesting/Labs/Exploiting LLM APIs with excessive agency.md",
     "Solved_Machines.md",
+    "Burb_Suit/LLM_Pentesting/Notes/01_Overwiew.md",
+    "Burb_Suit/LLM_Pentesting/Notes/02_What is a large language model.md",
+    "Burb_Suit/LLM_Pentesting/Referances.md",
+    "Hackvisor/warmups/007.md",
+    "Hackvisor/Untitled",
+    "Hackvisor/warmups/Arrow.md",
+    "Hackvisor/warmups",
+    "Burb_Suit/LLM_Pentesting/Labs",
+    "Burb_Suit/LLM_Pentesting/Notes",
+    "Burb_Suit/LLM_Pentesting",
+    "Hackvisor/warmups/File Hunter.md",
+    "Hackvisor/warmups/Carnival.md",
+    "Hackvisor/warmups/Secure Command.md",
+    "Hackvisor/warmups/Tiger.md",
+    "Hackvisor/warmups/Mount.md",
+    "Hackvisor/warmups/Query Gate.md",
+    "Hackvisor/warmups/Reddict.md",
     "Independent",
     "Try_Hack_Me",
     "Burb_Suit",
