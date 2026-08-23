@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Burb_Suit/LLM_Pentesting/LLM Pentesting.md",
+                "file": "Burb_Suit/LLM_Pentesting/Notes/09_AI-powered scanner vulnerabilities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM Pentesting"
+              "title": "09_AI-powered scanner vulnerabilities"
             }
           }
         ]
@@ -190,11 +190,24 @@
   },
   "active": "48ad942dacf67ab3",
   "lastOpenFiles": [
-    "Burb_Suit/LLM_Pentesting/llm_image1.png",
-    "Burb_Suit/LLM_Pentesting/References.md",
     "Burb_Suit/LLM_Pentesting/LLM Pentesting.md",
+    "Burb_Suit/LLM_Pentesting/Notes/09_AI-powered scanner vulnerabilities.md",
+    "Burb_Suit/LLM_Pentesting/Notes/08_What are AI-powered web application security scanners?.md",
+    "Burb_Suit/LLM_Pentesting/Notes/07_AI-Powered scanner vulnerabilites.md",
+    "Burb_Suit/LLM_Pentesting/Notes/06_Defending against LLM attacks.md",
+    "Burb_Suit/LLM_Pentesting/Notes/05_Leaking Sensitive Training Data.md",
+    "Burb_Suit/LLM_Pentesting/Notes/04_Indirect Prompt Injection.md",
+    "Burb_Suit/LLM_Pentesting/Labs/Exploiting insecure output handling in LLMs.md",
+    "Burb_Suit/LLM_Pentesting/Labs/Indirect prompt injection.md",
+    "images_related_to_notes/Screenshot from 2026-08-23 21-17-33.png",
     "Burb_Suit/LLM_Pentesting/Notes/01_Overview.md",
+    "images_related_to_notes/llm_image1.png",
+    "images_related_to_notes",
+    "Burb_Suit/LLM_Pentesting/Notes/03_LLM attacks and Prompt Injection.md",
+    "Burb_Suit/LLM_Pentesting/Notes/02_What is a Large Language Model.md",
+    "Burb_Suit/LLM_Pentesting/Labs/Exploiting vulnerabilities in LLM APIs.md",
     "Burb_Suit/LLM_Pentesting/Labs/Exploiting LLM APIs with excessive agency.md",
+    "Burb_Suit/LLM_Pentesting/References.md",
     "Solved_Machines.md",
     "Burb_Suit/LLM_Pentesting/Notes/01_Overwiew.md",
     "Burb_Suit/LLM_Pentesting/Notes/02_What is a large language model.md",
@@ -211,12 +224,9 @@
     "Hackvisor/warmups/Secure Command.md",
     "Hackvisor/warmups/Tiger.md",
     "Hackvisor/warmups/Mount.md",
-    "Hackvisor/warmups/Query Gate.md",
-    "Hackvisor/warmups/Reddict.md",
     "Independent",
     "Try_Hack_Me",
     "Burb_Suit",
-    "HTB",
-    "Hackvisor"
+    "HTB"
   ]
 }
