@@ -62,7 +62,7 @@ _No rooms solved yet — coming soon._
 |---|---|---|---|
 | Exploiting LLM APIs with excessive agency | LLM, excessive agency, SQL via Debug SQL API | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/LLM_Pentesting/Labs/Exploiting%20LLM%20APIs%20with%20excessive%20agency.md) | [![watch](https://img.shields.io/badge/video-watch-FF0000?logo=youtube&logoColor=white)](https://youtu.be/UG_4smygJes?si=hiMKcpKleDvfRxbT) |
 | Exploiting vulnerabilities in LLM APIs | LLM, OS command injection via Newsletter API | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/LLM_Pentesting/Labs/Exploiting%20vulnerabilities%20in%20LLM%20APIs.md) | — |
-| Indirect prompt injection | LLM, indirect prompt injection via product reviews | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/LLM_Pentesting/Labs/Indirect%20prompt%20injection.md) | — |
+| Indirect prompt injection | LLM, indirect prompt injection via product reviews | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/LLM_Pentesting/Labs/Indirect%20prompt%20injection.md) | [![watch](https://img.shields.io/badge/video-watch-FF0000?logo=youtube&logoColor=white)](https://youtu.be/9yKL6Ni6FkY) |
 | Exploiting insecure output handling in LLMs | LLM, insecure output handling, XSS | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/LLM_Pentesting/Labs/Exploiting%20insecure%20output%20handling%20in%20LLMs.md) | — |
 
 ---
@@ -72,6 +72,13 @@ _No rooms solved yet — coming soon._
 Whenever a machine or lab turns out to be particularly interesting or instructive, I publish
 a video solving it start-to-finish and link it in the tables above (look for the red
 ![watch](https://img.shields.io/badge/video-watch-FF0000?logo=youtube&logoColor=white) badge).
+
+## Medium Blogs
+
+Longer-form writeups published on [Medium](https://medium.com/@samliumay965):
+
+- [Lab Solved: Indirect Prompt Injection (PortSwigger)](https://medium.com/@samliumay965/lab-solved-indirect-prompt-injection-portswigger-0deebc1a777a)
+- [Lab Solved: Exploiting LLM APIs with Excessive Agency](https://medium.com/@samliumay965/lab-solved-exploiting-llm-apis-with-excessive-agency-cfda4611e18a)
 
 ## How to Read the Notes
 
