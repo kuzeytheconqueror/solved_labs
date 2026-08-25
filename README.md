@@ -25,7 +25,7 @@ obsidian_notes/
 ├── HTB/             # Hack The Box machines (coming soon)
 ├── Try_Hack_Me/     # TryHackMe rooms (coming soon)
 ├── Independent/     # Independent / miscellaneous labs
-└── Burb_Suit/       # Burp Suite & PortSwigger labs (LLM pentesting notes + labs)
+└── Burb_Suit/       # Burp Suite & PortSwigger labs (LLM pentesting, OS command injection)
 ```
 
 Quick index: [Solved_Machines.md](obsidian_notes/Solved_Machines.md)
@@ -38,15 +38,15 @@ Quick index: [Solved_Machines.md](obsidian_notes/Solved_Machines.md)
 
 | Machine | Focus | Writeup | Video |
 |---|---|---|---|
-| 007 | RDP misconfiguration, passwordless access | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/007.md) | — |
-| Arrow | Telnet, weak credentials | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/Arrow.md) | — |
-| Carnival | SMB enumeration & exploitation | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/Carnival.md) | — |
-| File Hunter | FTP, anonymous access | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/File%20Hunter.md) | — |
-| Mount | NFS misconfiguration | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/Mount.md) | — |
-| Query Gate | MySQL, passwordless root login | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/Query%20Gate.md) | — |
-| Reddict | Redis / NoSQL security | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/Reddict.md) | — |
-| Secure Command | SSH basics & secure access | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/Secure%20Command.md) | — |
-| Tiger | VNC misconfiguration | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/Tiger.md) | — |
+| 007 | RDP misconfiguration, passwordless access | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/warmups/007.md) | — |
+| Arrow | Telnet, weak credentials | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/warmups/Arrow.md) | — |
+| Carnival | SMB enumeration & exploitation | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/warmups/Carnival.md) | — |
+| File Hunter | FTP, anonymous access | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/warmups/File%20Hunter.md) | — |
+| Mount | NFS misconfiguration | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/warmups/Mount.md) | — |
+| Query Gate | MySQL, passwordless root login | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/warmups/Query%20Gate.md) | — |
+| Reddict | Redis / NoSQL security | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/warmups/Reddict.md) | — |
+| Secure Command | SSH basics & secure access | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/warmups/Secure%20Command.md) | — |
+| Tiger | VNC misconfiguration | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Hackvisor/warmups/Tiger.md) | — |
 
 ### [![Hack The Box](https://img.shields.io/badge/Hack_The_Box-9FEF00?logo=hackthebox&logoColor=black)](https://www.hackthebox.com)
 
@@ -64,6 +64,9 @@ _No rooms solved yet — coming soon._
 | Exploiting vulnerabilities in LLM APIs | LLM, OS command injection via Newsletter API | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/LLM_Pentesting/Labs/Exploiting%20vulnerabilities%20in%20LLM%20APIs.md) | — |
 | Indirect prompt injection | LLM, indirect prompt injection via product reviews | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/LLM_Pentesting/Labs/Indirect%20prompt%20injection.md) | [![watch](https://img.shields.io/badge/video-watch-FF0000?logo=youtube&logoColor=white)](https://youtu.be/9yKL6Ni6FkY) |
 | Exploiting insecure output handling in LLMs | LLM, insecure output handling, XSS | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/LLM_Pentesting/Labs/Exploiting%20insecure%20output%20handling%20in%20LLMs.md) | — |
+| OS command injection, simple case | OS command injection in stock checker | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/OS_command_injection/labs/OS%20command%20injection,%20simple%20case.md) | — |
+| Blind OS command injection with time delays | Blind OS command injection, time-based | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/OS_command_injection/labs/Blind%20OS%20command%20injection%20with%20time%20delays.md) | — |
+| Blind OS command injection with output redirection | Blind OS command injection, output redirection via writable folder | [![notes](https://img.shields.io/badge/writeup-notes-7C3AED?logo=obsidian&logoColor=white)](obsidian_notes/Burb_Suit/OS_command_injection/labs/Blind%20OS%20command%20injection%20with%20output%20redirection.md) | — |
 
 ---
 
