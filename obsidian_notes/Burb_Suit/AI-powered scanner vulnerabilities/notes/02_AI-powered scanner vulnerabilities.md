@@ -83,3 +83,17 @@ In this scenario, the scanner is not just a victim of an attack, but a tool used
 > [!example]  Lab
 > [Exploiting AI agents to trigger secondary vulnerabilities](https://portswigger.net/web-security/llm-attacks/ai-powered-scanner-vulnerabilities/lab-exploiting-target-website-vulnerabilities-to-bypass-restrictions)
 
+## Defending against AI-powered scanner vulnerabilities
+
+To mitigate the risks associated with AI-powered scanners, we recommend you apply robust security principles that assume the scanner's reasoning engine can be compromised. Even if an attacker successfully influences the LLM's plan via indirect prompt injection, the scanner's environment and permissions should remain constrained.
+
+### Secure design principles
+
+We recommend you apply the following design principles:
+
+- **Restrict scanner credentials and access controls**. Apply the principle of least privilege by providing the scanner only with the permissions necessary for the current test.
+- **Separate scanning identity from admin identity**. When configuring an AI-powered scanner, use dedicated testing accounts that do not share the same permissions as real admin users to prevent privilege escalation.
+- **Apply server-side controls to the scanner**. Do not assume an LLM-driven scanner will correctly enforce policy or "refuse" malicious instructions. Always enforce access controls at the application or API level rather than relying on the model's internal logic.
+- **Treat all user-modifiable content as untrusted input**. Assume any text retrieved from a database, such as a comment or profile field, is a potential injection vector that can alter the scanner's behavior.
+
+Lab Needs to be solved: https://portswigger.net/web-security/llm-attacks/ai-powered-scanner-vulnerabilities/lab-bypassing-ai-scanner-defenses-to-exfiltrate-sensitive-information
