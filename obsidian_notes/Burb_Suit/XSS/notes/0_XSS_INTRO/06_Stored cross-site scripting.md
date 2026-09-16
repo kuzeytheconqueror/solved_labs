@@ -7,12 +7,14 @@ The data in question might be submitted to the application via HTTP requests; fo
 
 Here is a simple example of a stored XSS vulnerability. A message board application lets users submit messages, which are displayed to other users:
 
-```
+```html
 <p>Hello, this is my message!</p>
 ```
 
 The application doesn't perform any other processing of the data, so an attacker can easily send a message that attacks other users:
-```
+
+```html
 <p><script>/* Bad stuff here... */</script></p>
 ```
 
+> Deeper dive: [[21_Stored XSS]]
